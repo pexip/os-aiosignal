@@ -1,8 +1,9 @@
 Source: aiosignal
 Section: python
 Priority: optional
-Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Uploaders: Piotr Ożarowski <piotr@debian.org>
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Debian Python Team <team+python@tracker.debian.org>
+XSBC-Pexip-Original-Uploaders: Piotr Ożarowski <piotr@debian.org>
 Build-Depends: debhelper-compat (= 13), dh-python,
                python3-all,
                python3-setuptools,
@@ -15,6 +16,7 @@ Standards-Version: 4.6.0
 Homepage: https://github.com/aio-libs/aiosignal
 Vcs-Git: https://salsa.debian.org/python-team/packages/aiosignal.git
 Vcs-Browser: https://salsa.debian.org/python-team/packages/aiosignal
+XS-Pexip-Upstream: http://ftp.debian.org/debian/ bookworm
 
 Package: python3-aiosignal
 Architecture: all
